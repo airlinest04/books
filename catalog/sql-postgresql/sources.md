@@ -40,6 +40,8 @@
 - PostgreSQL Documentation. [SAVEPOINT](https://www.postgresql.org/docs/current/sql-savepoint.html). — Точка сохранения, ROLLBACK TO.
 - PostgreSQL Documentation. [Transactions (Tutorial)](https://www.postgresql.org/docs/current/tutorial-transactions.html). — Транзакции, атомарность, savepoints.
 - PostgreSQL Documentation. [Transaction Isolation](https://www.postgresql.org/docs/current/transaction-iso.html). — READ COMMITTED, REPEATABLE READ, SERIALIZABLE; аномалии.
+- PostgreSQL Documentation. [Concurrency Control](https://www.postgresql.org/docs/current/mvcc.html). — Глава о параллельном доступе.
+- PostgreSQL Documentation. [13.1. Introduction (MVCC)](https://www.postgresql.org/docs/current/mvcc-intro.html). — MVCC, снимки данных, отсутствие блокировок чтения записью и наоборот.
 - PostgreSQL Documentation. [SET TRANSACTION](https://www.postgresql.org/docs/current/sql-set-transaction.html). — Уровень изоляции, READ ONLY, DEFERRABLE.
 - PostgreSQL Documentation. [Window Functions (Tutorial)](https://www.postgresql.org/docs/current/tutorial-window.html). — Введение в оконные функции, OVER, PARTITION BY.
 - PostgreSQL Documentation. [Window Functions](https://www.postgresql.org/docs/current/functions-window.html). — ROW_NUMBER, RANK, LAG, LEAD и др.
