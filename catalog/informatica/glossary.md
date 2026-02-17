@@ -1,6 +1,6 @@
 # Глоссарий
 
-Термины книги «Informatica». При первом введении в тексте даётся определение; здесь — краткая выжимка и при необходимости ссылка на раздел.
+Термины Informatica, используемые в книге.
 
 ---
 
@@ -16,9 +16,9 @@
 
 ## B
 
-**Buffer** (буфер) — блок памяти DTM для передачи данных между reader, transformation и writer threads; настраиваются DTM Buffer Size и Default Buffer Block Size. См. [§11.2](chapter-11-02.md).
-
 **Bottleneck** (узкое место) — компонент (target, source, mapping, session, system), ограничивающий производительность сессии; выявляется по performance counters; устраняется по порядку. См. [§11.4](chapter-11-04.md).
+
+**Buffer** (буфер) — блок памяти DTM для передачи данных между reader, transformation и writer threads; настраиваются DTM Buffer Size и Default Buffer Block Size. См. [§11.2](chapter-11-02.md).
 
 ---
 
@@ -54,9 +54,9 @@
 
 ## E
 
-**ETL** (Extract, Transform, Load) — процесс интеграции данных: извлечение из источников, преобразование по правилам очистки и бизнес-логики, загрузка в целевое хранилище. Informatica реализует ETL через Sources, Mappings, Targets, Sessions и Workflows. См. [§1.1](chapter-01-01.md), [§1.4](chapter-01-04.md).
-
 **ELT** (Extract, Load, Transform) — альтернатива ETL: данные загружаются в целевое хранилище, затем преобразования выполняются в самом DWH или data lake; предпочтителен для облачных DWH с pushdown. См. [§13.3](chapter-13-03.md).
+
+**ETL** (Extract, Transform, Load) — процесс интеграции данных: извлечение из источников, преобразование по правилам очистки и бизнес-логики, загрузка в целевое хранилище. Informatica реализует ETL через Sources, Mappings, Targets, Sessions и Workflows. См. [§1.1](chapter-01-01.md), [§1.4](chapter-01-04.md).
 
 **Expression** — пассивная трансформация для вычислений на уровне строки; поддерживает Input, Output, Variable порты; Expression Editor с функциями Transformation Language. См. [§5.4](chapter-05-04.md), [§6.2](chapter-06-02.md).
 
@@ -226,8 +226,6 @@
 
 **Transformation** (трансформация) — объект репозитория, генерирующий, изменяющий или передающий данные; реализует этап Transform в ETL. Классификация: Active/Passive, Connected/Unconnected, Native/Non-native. См. [§5.1](chapter-05-01.md).
 
-**Update Strategy** — активная трансформация; помечает строки для Insert (DD_INSERT), Update (DD_UPDATE), Delete (DD_DELETE) или Reject (DD_REJECT). См. [§8.3](chapter-08-03.md), [§12.3](chapter-12-03.md).
-
 **Transformation datatypes** (типы трансформаций) — универсальные типы PowerCenter (Integer, Decimal, String, Date/Time и др.), основанные на ANSI SQL-92; используются во всех трансформациях; позволяют переносить данные между разными платформами. См. [§3.3](chapter-03-03.md).
 
 ---
@@ -237,6 +235,8 @@
 **Unconnected transformation** (неподключённая трансформация) — трансформация, не связанная с потоком; вызывается из выражения (:LKP, :SP) и возвращает одно значение. Поддерживают Lookup, Stored Procedure, External Procedure. См. [§5.3](chapter-05-03.md).
 
 **Union** — активная трансформация; несколько input groups, один output; объединяет потоки с совместимой структурой (аналог SQL UNION ALL); дубликаты не удаляет. См. [§6.4](chapter-06-04.md).
+
+**Update Strategy** — активная трансформация; помечает строки для Insert (DD_INSERT), Update (DD_UPDATE), Delete (DD_DELETE) или Reject (DD_REJECT). См. [§8.3](chapter-08-03.md), [§12.3](chapter-12-03.md).
 
 ---
 
