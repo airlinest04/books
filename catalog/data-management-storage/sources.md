@@ -1,13 +1,9 @@
 # Список литературы
 
-Использованные и рекомендуемые источники по управлению данными и хранению. Список дополняется по мере написания разделов.
+Источники по управлению данными и хранению для книги.
 
 ---
 
-## Управление данными (DMBOK и основы)
+## Управление данными (DMBOK)
 
-- DAMA. *DAMA-DMBOK: Data Management Body of Knowledge*. — Рамка областей знаний по управлению данными; определения, роли, практики. См. [dama.org](https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/).
-
----
-
-*В последующих разделах книги будут добавлены источники по типам хранения, Data Lake, DWH, BI и качеству данных.*
+- **DAMA. DAMA-DMBOK: Data Management Body of Knowledge** — https://dama.org/learning-resources/dama-data-management-body-of-knowledge-dmbok/
